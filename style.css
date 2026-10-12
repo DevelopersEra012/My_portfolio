@@ -629,3 +629,51 @@ span{
         margin: 4rem 5rem;
     }
 }
+
+
+
+
+
+
+.projects {
+    background: var(--second-bg-color);
+}
+.projects-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+}
+.project-box {
+    background-color: var(--bg-color);
+    border: 3px solid var(--main-color);
+    border-radius: 3rem;
+    padding: 3rem;
+    max-width: 600px;
+    box-shadow: 0 0 15px var(--main-color);
+    transition: 0.4s ease-in-out;
+}
+.project-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 30px var(--main-color);
+}
+.project-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.project-info h4 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+.project-info p {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #cccccc;
+}
+.project-info .btn {
+    align-self: center;
+    margin-top: 1rem;
+}
